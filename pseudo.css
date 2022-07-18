@@ -1,0 +1,27 @@
+.btn{
+    background-color: rgb(171, 171, 171);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(201, 42, 140);
+}
+.btn:active{
+    background-color: rgb(1, 19, 126);
+    color: rgb(216, 248, 8);
+}
+.btn:focus{
+    background-color: rgb(247, 0, 0);
+    color: rgb(0, 250, 38);
+}
+.para::before{
+    content: "my name is:";
+    color: blue;
+}
+.para::after{
+    content:  "rengaraj";
+}
+.para::selection{
+    color: green;
+    background-color: black;
+}

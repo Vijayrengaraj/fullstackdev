@@ -1,0 +1,28 @@
+.qwerty{
+    color: rgb(163, 90, 0);
+    font-weight: 100;
+    border: 10px solid yellow;
+    position: relative;
+    top: 10%;
+}
+.chatbot{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.a{
+    position: relative;
+    border: 10px solid blue;
+    height: 500px;
+    width: 500px;
+}
+.b{
+    position:absolute;
+    border: 10px dashed red;
+    height: 200px;
+    width: 200px;
+    bottom: 50;
+    right: 50;
+}

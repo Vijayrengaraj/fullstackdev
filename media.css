@@ -1,0 +1,34 @@
+.a{
+    display: block;
+    color: aqua;
+}
+.b{
+    display: none;
+}
+.c{
+    display: none;
+}
+@media (min-width: 768px) {
+    .a{
+        display: none;
+    }
+    .b{
+        display: block;
+        color: blueviolet;
+    }
+    .c{
+        display: none;
+    }
+}
+@media (min-width: 1024px) {
+    .a{
+        display: none;
+    }
+    .b{
+        display: none;
+    }
+    .c{
+        display: block;
+        color: brown;
+    }
+}

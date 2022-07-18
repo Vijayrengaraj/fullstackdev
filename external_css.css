@@ -1,0 +1,29 @@
+.money{
+    display: inline;
+    background-color: yellowgreen;
+    border: 10px solid black;
+    text-align: center;
+}
+#ul{
+    display: inline-block;
+    background-color: yellowgreen;
+    border: 10px solid black;
+    text-align: center;
+}
+th{
+    display: block;
+    background-color: yellowgreen;
+    border: 10px solid black;
+    text-align: center;
+}
+table[name="table"]{
+    background-color: yellowgreen;
+    border: 10px solid black;
+    text-align: center;
+}
+body{
+    background-color: aquamarine;
+}
+img{
+    border-radius: 10%;
+}

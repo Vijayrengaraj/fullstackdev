@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.parent{
+    display: flex;
+    background-color: white;
+    height: 600px;
+    width: 80%;
+    margin: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.child{
+    background-color: red;
+    height: 100px;
+    width: 10%;
+}
+.child1{
+    background-color: red;
+    height: 100px;
+    width: 10%;
+    align-self: flex-start;
+}
